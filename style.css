@@ -101,7 +101,7 @@ abbr {
   background-size: 20px 2px, 100% 2px, 0 2px;
   background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.33s linear, background-position 0.85s linear;
+  transition: background-size 0.85s linear, background-position 0.85s linear;
   cursor: pointer;
 }
 
@@ -160,7 +160,6 @@ a:hover {
   text-decoration: double underline;
   text-decoration-thickness: 2px;
   text-decoration-color: #1abc9c;
-  text-deoration
 }
 
 .post, .about {
@@ -174,6 +173,11 @@ a:hover {
   height: 50px;
   vertical-align: middle;
   border-radius: 50%;
+  transition: transform 1s;
+}
+
+.post-author img:hover {
+  transform: rotate(360deg);
 }
 
 .post-content a {
