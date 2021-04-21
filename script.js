@@ -1,16 +1,16 @@
-face.addEventListener('mouseover',function(){
+face.addEventListener('mouseover', function(){
     face.style.width = '200px';
     face.style.height = '200px';});
 
-pup.addEventListener('mouseover',function(){
+pup.addEventListener('mouseover', function(){
     pup.style.width = '200px';
     pup.style.height = '200px';});
 
-face.addEventListener('mouseout',function(){
+face.addEventListener('mouseout', function(){
     face.style.width = '50px';
     face.style.height = '50px';});
     
-pup.addEventListener('mouseout',function(){
+pup.addEventListener('mouseout', function(){
     pup.style.width = '50px';
     pup.style.height = '50px';});
 
