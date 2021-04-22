@@ -1,3 +1,8 @@
+
+
+
+
+
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
@@ -7,25 +12,25 @@ body {
 }
 
 #header {
-  background-color: #1abc9c;
+  background-color: #87aab9;
   height: 50px;
   line-height: 50px;
 }
 
 #header a {
-  color: white;
+  color: #f9f3c5;
   text-decoration: overline;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 #header a:hover {
-  color: #4b0082;
+  color: #e9e581;
 }
 
 #header-title:hover {
   text-decoration: dashed overline;
-  text-decoration-color: #952edf;
+  text-decoration-color: #e9e581;
 }
 
 #header-title {
@@ -41,7 +46,7 @@ body {
 
 #about-header-title:hover {
   text-decoration: dashed overline;
-  text-decoration-color: #952edf;
+  text-decoration-color: #e9e581;
 }
 
 #about-header-title{
@@ -62,7 +67,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #952edf;
+  background-color: #de1b1b;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -77,7 +82,7 @@ body {
 #header-nav a:hover {
   text-decoration: overline underline;
   text-decoration-thickness: 18%;
-  text-decoration-color: #952edf;
+  text-decoration-color: #e9e581;
 }
 
 #header-nav a::before {
@@ -87,7 +92,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #4b0082;
+  background-color: #de1b1b;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -109,21 +114,21 @@ body {
 }
 
 abbr {
-  color: #1abc9c;
+  color: #87aab9;
   font-weight: 600; 
   text-decoration: none;
-  background-image: linear-gradient(#9374a8, #4b0082),
-  linear-gradient(#4baf9d, #1abc9c),
-  linear-gradient(#ff9d00,#ffbf58 );
+  background-image: linear-gradient(#f9f3c5,#e9e581),
+  linear-gradient(#646f6f, #87aab9),
+  linear-gradient(#87aab9, #de1b1b);
   background-size: 20px 2px, 100% 2px, 0 2px;
   background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.85s linear, background-position 0.85s linear;
+  transition: background-size 0.75s linear, background-position 0.75s linear;
   cursor: pointer;
 }
 
 abbr:hover {
-  color: #f6a623;
+  color: #de1b1b;
   background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
@@ -142,7 +147,7 @@ abbr:hover {
 }
 
 #footer {
-  background-color: #2f2f2f;
+  background-color: #646f6f;
   padding: 50px 50px;
   display: block;
   position: relative;
@@ -160,25 +165,25 @@ abbr:hover {
 }
 
 #footer h4 {
-  color: white;
+  color: #f9f3c5;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 #footer p {
-  color: white;
+  color: #e9e581;
 }
 
 a {
-  color: #1abc9c;
+  color: #87aab9;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f6a623;
+  color: #e9e581;
   text-decoration: double underline;
   text-decoration-thickness: 2px;
-  text-decoration-color: #1abc9c;
+  text-decoration-color: #87aab9;
 }
 
 .post, .about {
@@ -200,22 +205,22 @@ a:hover {
 }
 
 .post-content a {
-  color: #1abc9c;
+  color: #87aab9;
   text-decoration: none;
   font-variant: small-caps;
   font-size: large;
-  background-image: linear-gradient(#9374a8, #4b0082),
-  linear-gradient(#4baf9d, #1abc9c),
-  linear-gradient(#ff9d00,#ffbf58 );
+  background-image: linear-gradient(#f9f3c5,#e9e581),
+  linear-gradient(#646f6f, #87aab9),
+  linear-gradient(#87aab9, #de1b1b);
   background-size: 20px 2px, 100% 2px, 0 2px;
   background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.85s linear, background-position 0.85s linear;
+  transition: background-size 0.75s linear, background-position 0.75s linear;
   cursor: pointer;  
 }
 
 .post-content a:hover {
-  color: #f6a623;
+  color: #de1b1b;
   background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
@@ -256,22 +261,22 @@ p {
 }
 
 .about-content a {
-  color: #1abc9c;
+  color: #87aab9;
   text-decoration: none;
   font-variant: small-caps;
   font-size: large;
-  background-image: linear-gradient(#9374a8, #4b0082),
-  linear-gradient(#4baf9d, #1abc9c),
-  linear-gradient(#ff9d00,#ffbf58 );
+  background-image: linear-gradient(#f9f3c5,#e9e581),
+  linear-gradient(#646f6f, #87aab9),
+  linear-gradient(#87aab9, #de1b1b);
   background-size: 20px 2px, 100% 2px, 0 2px;
   background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
   background-repeat: no-repeat;
-  transition: background-size 0.85s linear, background-position 0.85s linear;
+  transition: background-size 0.75s linear, background-position 0.75s linear;
   cursor: pointer;
 }
 
 .about-content a:hover {
-  color: #f6a623;
+  color: #de1b1b;
   background-size: 20px 2px, 0 2px, 100% 2px;
   background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
 }
@@ -285,4 +290,6 @@ p {
   position: relative;
   bottom: 0;
 }
+
+
 
