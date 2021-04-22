@@ -10,7 +10,9 @@ body {
   background-color: #ececec;
   color: #555555;
   font-family: 'Montserrat', sans-serif;
-  content
+  position: relative;
+  padding-bottom: 399px;
+  min-height: 100vh;
 }
 
 #header {
@@ -147,11 +149,13 @@ abbr:hover {
   background-color: #2f2f2f;
   padding: 50px 50px;
   display: block;
-  position: relative;
+  position: absolute;
   bottom: 0;
+  min-width: 100vw;
 }
 
 #column1 {
+  margin-top: 50px;
   margin-right: 150px;
 }
 
