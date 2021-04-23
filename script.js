@@ -21,4 +21,4 @@ document.getElementById("css1").addEventListener("click", function() {
     alert(`Cascading Style Sheets, or "CSS" is a styling language used for the presentation of webpages. CSS, alongside HTML and JavaScript, is a fundamental technology for the World Wide Web.`);});
 
 document.getElementById("js1").addEventListener("click", function() {
-    alert(`JavaScript is the language of the web! It is a programming language used to make webpages more interactive and dynamic. JavaScript, combined with HTML and CSS, makes the World Wide Web what it is today.`);});
+    alert(`JavaScript is the language of the web! It is a programming language used to make webpages more interactive and dynamic, allowing web designers to do things like, say, give you a definition when you click on a link! 😉 JavaScript, combined with HTML and CSS, makes the World Wide Web what it is today.`);});
