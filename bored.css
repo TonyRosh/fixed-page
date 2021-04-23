@@ -43,7 +43,7 @@ a {
   linear-gradient(#1db100, #35bc1a),
   linear-gradient(#ff9d00,#dd8800 );
   background-size: 20px 2px, 100% 2px, 0 2px;
-  background-position: calc(20px * -1) 100%, 100% 100%, 0 100%;
+  background-position: calc(20px * -1) 100%, 100% 100%, 100% 100%;
   background-repeat: no-repeat;
   transition: background-size 1s linear, background-position 1s linear;
   cursor: pointer;
@@ -52,5 +52,5 @@ a {
 a:hover {
   color: #dd8800;
   background-size: 20px 2px, 0 2px, 100% 2px;
-  background-position: calc(100% + 20px) 100%, 100% 100%, 0 100%;
+  background-position: calc(100% + 20px) 100%, 100% 100%, 100% 100%;
 }
